@@ -145,13 +145,6 @@ namespace PR_01
             table.Clear();
             adapter.Fill(table);
         }
- private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-        private void adminname_Click(object sender, EventArgs e)
-        {
-
-        }
+ //удаление пустых методов
     }
 }
