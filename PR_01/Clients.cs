@@ -74,9 +74,10 @@ namespace PR_01
            "Подтверждение", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes) ;
             {
+                this.Hide();//сначала прячем форму потом показываем новую, чтобы не было засорения на экране
                 Autorization newform = new Autorization();
                 newform.Show();
-                this.Hide();
+                
             }
         }
 
@@ -84,9 +85,10 @@ namespace PR_01
         {
            
             {
+                this.Hide();//сначала прячем форму потом показываем новую, чтобы не было засорения на экране
                 Zakaz newform = new Zakaz(userClass2);
                 newform.Show();
-                this.Hide();
+                
             }
         }
 
