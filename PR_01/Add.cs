@@ -124,32 +124,7 @@ namespace PR_01
                 namePhoto.Text = op.FileName;
             }
         }
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Price_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Suplier_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-       
-
-        private void namePhoto_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
     
 }
