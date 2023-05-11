@@ -52,7 +52,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1044, 498);
             this.dataGridView1.TabIndex = 1;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            //удалена строка, выдающая ошибку
             // 
             // toolStrip1
             // 
@@ -128,7 +128,7 @@
             this.adminname.Name = "adminname";
             this.adminname.Size = new System.Drawing.Size(29, 28);
             this.adminname.Text = " ";
-            this.adminname.Click += new System.EventHandler(this.adminname_Click);
+            //удалена строка, выдающая ошибку
             // 
             // Admin
             // 
