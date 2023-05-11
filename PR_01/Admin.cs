@@ -35,7 +35,23 @@ namespace PR_01
                 dataGridView1.DataSource = dset.Tables[0];
 
             }
-
+            //Вместо подключения базы и образования приватного класса, можно просто передавать данные с авторизации в другие формы через колонки по типу:
+            //string surname = dt.Rows[0]["UserSurname"].ToString();
+            //string name = dt.Rows[0]["UserName"].ToString();
+            //string patron = dt.Rows[0]["UserPatronymic"].ToString();
+            //{
+            //    this.Hide();
+            //    AdminRedProduct AdminForm = new AdminRedProduct(surname, name, patron);(то что в скобках передаем Имя Фамилию и Отчество, а в принимающей форме просто принимать эти параметры и выводить в обычные label)
+            //    AdminForm.Show();   
+            //}
+            //Ниже код как мы принимаем эти параметры
+            //public AdminRedProduct(string surname, string name, string patron)
+            // {
+            // InitializeComponent();
+            // surname1.Text = surname;
+            // name1.Text = name;
+            //patron1.Text = patron;
+             //}
         }
 
         DB db = new DB();
