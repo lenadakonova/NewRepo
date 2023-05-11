@@ -66,7 +66,7 @@ namespace PR_01
             dataGridView1.Columns[11].HeaderText = "Макс. скидка";
             dataGridView1.DefaultCellStyle.Font = new Font("Downtown Regular", 12);
             dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Downtown Regular", 12);
-
+//малло столбцов
         }
 
        
